@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Show object
+		</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+		
+		
+	</head>
+	
+	<body>
+		<div class="teleprompter">
+			<p style="center" > Show Object </p>
+		</div>
+		<br>
+		<div class="fondo book-images">
+		<br>
+			
+			<label  for="usuario"> QUE ID QUIERE CONSULTAR? </label><br><br>
+			
+			<input type="text" id="usuario" name="usuario" placeholder="insertar id del 1 al 5" required> <br><br>
+			<button onClick="validar()"> Mostrar </button>
+			
+			<div>
+				<ul id="resultado">  </ul>
+					
+
+			  </div>
+			<table border="3" cellPadding="5" cellSpacing="5">
+			<thead >
+				<tr>
+					<th>ID</th>
+					<th>POST_ID</th>
+					<th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>BODY</th>
+				</tr>
+			</thead>
+			<tbody id="lista">
+				
+				
+			</tbody>
+		</div>
+		
+		
+		
+	</body>
+	
+</html>
